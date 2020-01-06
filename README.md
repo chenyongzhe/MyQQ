@@ -8,14 +8,14 @@
 服务端用idea 打开需要修改mysql数据库密码在dbcpconfig.properties 配置文件中
 ## 运行效果 <br>
 ### 用户登录 <br>
-<img src="https://chenyongzhe.github.io/android1.png"  width="400" height="900"><br>
+<img src="https://chenyongzhe.github.io/android1.png"  width="40%" height="900"><br>
 ### 用户注册设置头像 <br>
-<img src="https://chenyongzhe.github.io/android2.png"  width="400" height="900"><br>
+<img src="https://chenyongzhe.github.io/android2.png"  width="40%" height="900"><br>
 ### 好友列表 <br>
-<img src="https://chenyongzhe.github.io/android3.png"  width="400" height="900"><br>
+<img src="https://chenyongzhe.github.io/android3.png"  width="40%" height="900"><br>
 ### 聊天页面 <br>
-<img src="https://chenyongzhe.github.io/android4.png"  width="400" height="900"><br>
+<img src="https://chenyongzhe.github.io/android4.png"  width="40%" height="900"><br>
 ### 添加好友 <br>
-<img src="https://chenyongzhe.github.io/android5.png"  width="400" height="900"><br>
+<img src="https://chenyongzhe.github.io/android5.png"  width="40%" height="900"><br>
 ### 修改个人信息 <br>
-<img src="https://chenyongzhe.github.io/android6.png"  width="400" height="900"><br>
+<img src="https://chenyongzhe.github.io/android6.png"  width="40%" height="900"><br>
