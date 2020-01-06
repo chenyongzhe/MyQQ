@@ -7,3 +7,9 @@
 用户信息查询、存储临时消息到数据库服务器。<br>
 服务端用idea 打开需要修改mysql数据库密码在dbcpconfig.properties 配置文件中
 
+<img src="https://chenyongzhe.github.io/android1.png"  width="400" height="500"><br>
+<img src="https://chenyongzhe.github.io/android2.png"  width="400" height="500"><br>
+<img src="https://chenyongzhe.github.io/android3.png"  width="400" height="500"><br>
+<img src="https://chenyongzhe.github.io/android4.png"  width="400" height="500"><br>
+<img src="https://chenyongzhe.github.io/android5.png"  width="400" height="500"><br>
+<img src="https://chenyongzhe.github.io/android6.png"  width="400" height="500"><br>
