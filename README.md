@@ -6,6 +6,7 @@
 服务器端线程。发送消息类为自己定义的TranObject类，该类实现了Serializable接口所以可以使用socket 传输改数据结构。服务器端主要的实现的功能是用户注册、用于登录账号验证、消息转发、好友添加、用户数据更新，
 用户信息查询、存储临时消息到数据库服务器。<br>
 服务端用idea 打开需要修改mysql数据库密码在dbcpconfig.properties 配置文件中
+## 运行效果 <br>
 
 <img src="https://chenyongzhe.github.io/android1.png"  width="400" height="500"><br>
 <img src="https://chenyongzhe.github.io/android2.png"  width="400" height="500"><br>
