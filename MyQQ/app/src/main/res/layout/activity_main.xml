@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/buttom_bar_group"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+
+        android:orientation="horizontal" >
+
+        <RelativeLayout style="@style/ButtomBar">
+
+            <ImageButton
+                android:id="@+id/buttom_news"
+                style="@style/ButtomBarImgBtn1"
+                android:background="@drawable/bar_news"
+                android:contentDescription="@string/app_name"
+                android:layout_height="25dp"
+                android:layout_width="25dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_below="@id/buttom_news"
+                android:text="消息"
+                android:textSize="10sp"
+                android:layout_marginLeft="30dp"
+
+                />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/ButtomBar" >
+
+            <ImageButton
+                android:id="@+id/buttom_constact"
+                style="@style/ButtomBarImgBtn1"
+                android:background="@drawable/bar_constact"
+                android:contentDescription="@string/app_name" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_below="@id/buttom_constact"
+                android:text="联系人"
+                android:textSize="10sp"
+                android:layout_marginLeft="30dp"
+
+                />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/ButtomBar" >
+
+            <ImageButton
+                android:id="@+id/buttom_deynaimic"
+                style="@style/ButtomBarImgBtn1"
+                android:background="@drawable/bar_deynaimic"
+                android:contentDescription="@string/app_name" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_below="@id/buttom_deynaimic"
+                android:text="动态"
+                android:textSize="10sp"
+                android:layout_marginLeft="30dp"
+
+                />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/ButtomBar" >
+
+            <ImageButton
+                android:id="@+id/buttom_setting"
+                style="@style/ButtomBarImgBtn1"
+                android:background="@drawable/bar_setting"
+                android:contentDescription="@string/app_name"
+
+                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_below="@id/buttom_setting"
+                android:text="我"
+                android:textSize="10sp"
+                android:layout_marginLeft="34dp"
+
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@id/buttom_bar_group"
+        android:background="@color/devide_line" />
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/line" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chen.a12763.myqq.view.HeaderLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="54dip"
+
+    android:background="#50FFFFFF"
+
+    >
+
+</com.chen.a12763.myqq.view.HeaderLayout>

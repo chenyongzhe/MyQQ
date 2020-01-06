@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   <com.chen.a12763.myqq.view.TitleBarView
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal|center_vertical">
+   <com.chen.a12763.myqq.view.CircleImageView
+       android:id="@+id/info_user_photo"
+       android:layout_width="80dp"
+       android:layout_height="80dp"
+       android:layout_alignParentLeft="true"
+       android:layout_centerVertical="true"
+
+       android:src="@drawable/channel_qq"
+       app:border_color="#E0E0E0"
+       app:border_width="1dp"
+      />
+     </LinearLayout>
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_gravity="center_vertical"
+       android:background="@drawable/border"
+       >
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="30sp"
+          android:textColor="@color/blue"
+          android:text="昵称："
+          />
+     <TextView
+         android:id="@+id/info_user_id"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textSize="20sp"
+         android:layout_marginLeft="15dp"
+         android:text="ddddddd"/>
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_gravity="center_vertical"
+       android:background="@drawable/border">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="30sp"
+          android:textColor="@color/blue"
+          android:text="账号："/>
+      <TextView
+          android:id="@+id/info_user_username"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20sp"
+          android:text=""
+          android:layout_marginLeft="15dp"/>
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_gravity="center_vertical"
+       android:background="@drawable/border">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="30sp"
+          android:textColor="@color/blue"
+          android:text="性别："/>
+      <ImageView
+          android:id="@+id/info_user_sex"
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:textSize="30sp"
+          android:layout_gravity="center_vertical"
+
+          android:layout_marginLeft="15dp"/>
+
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_gravity="center_vertical"
+       android:background="@drawable/border">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="30sp"
+          android:textColor="@color/blue"
+          android:text="年龄："/>
+      <TextView
+          android:id="@+id/info_user_age"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20sp"
+          android:text=""
+          android:layout_marginLeft="15dp"/>
+
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_gravity="center_vertical"
+       android:background="@drawable/border">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="30sp"
+          android:textColor="@color/blue"
+          android:text="籍贯："/>
+      <TextView
+          android:id="@+id/info_user_local"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20sp"
+          android:text=""
+          android:layout_marginLeft="15dp"/>
+
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_gravity="center_vertical"
+       android:background="@drawable/border">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="30sp"
+          android:textColor="@color/blue"
+          android:text="简介："/>
+      <TextView
+          android:id="@+id/info_user_qianming"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20sp"
+          android:text="。。。。。。。"
+          android:layout_marginLeft="15dp"/>
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_gravity="center_vertical"
+       android:background="@drawable/border">
+      <Button
+
+          android:id="@+id/modify_button"
+          android:text="设置信息"
+          android:background="@drawable/login_btn"
+
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentRight="true"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="25dp"
+          android:layout_marginRight="25dp"
+          android:layout_height="50dp"
+          android:layout_width="match_parent"
+          />
+
+   </LinearLayout>
+
+
+</LinearLayout>
